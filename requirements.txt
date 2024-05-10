@@ -1,0 +1,9 @@
+streamlit==0.90.0
+opencv-python==4.5.3.56
+numpy==1.21.2
+Pillow==8.3.2
+scikit-image==0.18.3
+tensorflow==2.6.0
+matplotlib==3.4.3
+imutils==0.5.4
+IPython[all]
