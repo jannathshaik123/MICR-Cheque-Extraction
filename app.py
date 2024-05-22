@@ -288,7 +288,7 @@ if uploaded_file is None:
 
 if uploaded_file is not None:
     # Save the uploaded file to a temporary location
-    with open("/Users/jannathshaik/Desktop/python/projects/courseprojects/ocr-project/uplodedimage.jpg", "wb") as f:
+    with open("/uplodedimage.jpg", "wb") as f:
         image = uploaded_file.read()
         f.write(image)
     st.sidebar.image(image, caption='Uploaded Image', use_column_width=True,width=100)
